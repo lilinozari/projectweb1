@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    scrollbar-color: #2c5282 #f5f5f5 ;
+}
+.wraper {
+    width: 100%;
+}
+@font-face {
+    font-family: shabnam;
+    src: url(../fonts/shabnam/Shabnam.eot) , 
+    url(../fonts/shabnam/Shabnam.ttf) , 
+    url(../fonts/shabnam/Shabnam.woff) ,
+    url(../fonts/shabnam/Shabnam.woff2);
+}
+
+
+:root{
+    --shabnam : shabnam;
+    --hovertext: #2c5282 ;
+    --perNum: perNum ;
+    --black-16:rgba(0,0,0,.16);
+}
+
+@font-face {
+    font-family: perNum;
+    src: url(../fonts/perNum/IRANSansXFaNum-RegularD4.eot) , 
+    url(../fonts/perNum/IRANSansXFaNum-RegularD4.ttf) , 
+    url(../fonts/perNum/IRANSansXFaNum-RegularD4.woff) ,
+    url(../fonts/perNum/IRANSansXFaNum-RegularD4.woff2);
+}

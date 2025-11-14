@@ -1,0 +1,148 @@
+.wraper{
+   min-height: 100%;
+   display: flex;
+   flex-flow: column;
+    .login{
+    width: 100%;
+    height: 900px;
+    .logincenter{
+        width: 22%;
+        height: 450px;
+        background-color:#F7F8FA ;
+        border-radius: 15px;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .01), 0 1px 2px 0 rgba(0,0, 0, .06);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        .logintop{
+        width: 100%;
+        height: 30%;
+        
+        svg{
+            margin-top: 7px;
+            margin-right: 340px;
+        }
+        img{
+            width: 46%;
+            margin: 0px auto;
+            display: block;
+        }
+        }
+        hr{
+            color: #1b1b1b;
+            opacity: 0.1;
+        }
+        .loginbottom{
+            padding: 20px;
+            box-sizing: border-box;
+            .span1log{
+                font-size: 18px;
+                font-family: var(--shabnam);
+                font-weight: 400;
+                color: black;
+            }
+            p{
+                width: 98%;
+                font-size: 14px;
+                font-family: var(--shabnam);
+                color: #000000de;
+                line-height: 30px;
+            }
+            .buttons{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                flex-flow: column wrap;
+                position: relative;
+                label{
+                    display: block;
+                    font-family: var(--shabnam);
+                    font-size: 14px;
+                    position: absolute;
+                    top: 4%;
+                    left: 75%;
+                    color: #7e7b7b;
+                    transition: 200ms;
+                }
+                #phonenumber{
+                    width: 99%;
+                    height: 34px;
+                    border-radius: 15px;
+                    border: 1px solid #e5e7eb ;
+                    font-family: var(--shabnam);
+                    font-size: 10px;
+                    text-align: center;
+                    margin-top: 30px;
+                   outline: unset;
+                    border-color: #e5e7eb;
+                
+                    &:focus + label,
+                    &:valid + label{
+                        top: 27%;
+                        left: 76%;
+                     
+                    }
+                    &:focus{
+                        border: 1px solid #e5e7eb;
+                    }
+                    
+                    
+                }
+                .register{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 98%;
+                    height: 35px;
+                    border-radius: 12px;
+                    border: 1px solid;
+                     background-color:rgb(67, 127, 201);
+                     margin-top: 30px;
+                     border: 1px solid rgb(67, 127, 201);
+                     font-family: var(--shabnam);
+                     a{
+                        text-decoration: none;
+                        color: whitesmoke;
+                     }
+
+
+                }
+            }
+           .regulations{
+    font-size: 13px;
+    position: absolute;
+    bottom: 20px;
+     left: 12%;
+     font-family: var(--shabnam);
+ } 
+        }
+    }
+    
+}
+
+.footer{
+    width: 100%;
+height: 50px;
+background-color:rgb(10, 90, 189);
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: auto;
+.taga{
+    display: flex;
+    line-height: 47px;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    justify-content: center;
+      .logintaga{
+            text-decoration: none;
+            color: #F7F8FA;
+            font-family: shabnam ;
+
+}
+}
+}
+}
