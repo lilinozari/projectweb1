@@ -66,13 +66,27 @@
                         background-color: transparent;
                         font-family: var(--shabnam);
                         font-size: 16px;
-                        &::placeholder {
+                        z-index: 1;
+                        &:placeholder {
                             font-size: 16px;
                         }
                     }
-    
+             
 
                 }
+                .outline{
+    position: fixed;
+    inset: 0;
+    background-color: #00000055;
+    display: none;
+    z-index: -1;
+    content: "";
+    width: 100vw;
+    height: 100vh;
+}
+.searchform:has(#search:focus)~ .outline{
+    display: block;
+}
             }
             .more{
                 width: 35%;
