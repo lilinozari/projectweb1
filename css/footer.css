@@ -8,11 +8,11 @@
         justify-content: center;
         align-items: center;
         height: 65px;
-    background-color:#DEDED1;
+    background-color:#a1a1a1;
         .info{
         width: 75%;
          height: 65px;
-        background-color:#DEDED1;
+        background-color:#a1a1a1;
         display: flex;
         flex-flow: row wrap;
        justify-content: space-evenly;
@@ -63,26 +63,27 @@
             transform: translateY(6px)
         }
        }
-    button{
+    a{
         background-color: whitesmoke;
-        width: 8%;
-        height: 45px;
+        width: 7%;
+        height: 28px;
         text-align: start;
         border-radius: 10px;
         border: 1px solid white;
         padding: 6px ;
         outline: unset;
+        line-height: 30px;
     
-        a{ text-decoration: none;
+         text-decoration: none;
             font-family: var(--shabnam);
             color: gray;
             font-size: 12px;
-        }
-        &:hover a{
+    
+        &:hover {
             color: #1b1b1b ;
         }
         svg{
-            transform: translateX(-30px);
+            transform: translateX(-38px);
         }
     }
     
@@ -92,7 +93,7 @@
     .fcenter{
         width: 100%;
      height: 390px;
-     background-color:rgb(228, 223, 223);
+     background-color:#929292;
      display: flex;
      justify-content: center;
      align-items: center;

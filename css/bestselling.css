@@ -8,7 +8,7 @@
     flex-flow: column wrap;
     .centersell{
         width: 75%;
-        height: 550px;
+        height: 580px;
          border-radius: 15px;
          display: flex;
         justify-content: start;
@@ -16,11 +16,11 @@
         gap: 18px;
         align-items: center;
         margin-bottom: 80px;
-        background-color: #e2e8f0 ;
+        background-color: #e2e8f0;
          .selltop{
             width: 98%;
             height: 53px;
-            
+            margin-bottom: 5px;
             display: flex;
             justify-content: space-between;
             flex-flow: row;
@@ -54,9 +54,11 @@
          }
          .sellbottom{
             width: 98%;
-            height: 410px;
+            height: 430px;
              border-radius: 15px ;
              box-shadow: 0 4px 6px -1px rgba (0,0,0, 0.1) , 0 2px 4px -1px rgba (0,0,0,0.06);
+          
+             margin-bottom: 28px;
             
             .circle{
         width: 94%;
