@@ -64,6 +64,7 @@
                     left: 75%;
                     color: #7e7b7b;
                     transition: 200ms;
+                    
                 }
                 #phonenumber{
                     width: 99%;
@@ -76,7 +77,8 @@
                     margin-top: 30px;
                    outline: unset;
                     border-color: #e5e7eb;
-                
+        
+                text-align: right;
                     &:focus + label,
                     &:valid + label{
                         top: 27%;
@@ -96,7 +98,7 @@
                     width: 98%;
                     height: 35px;
                     border-radius: 12px;
-                    border: 1px solid;
+                    border: 1px solid #e5e7eb;
                      background-color:rgb(67, 127, 201);
                      margin-top: 30px;
                      border: 1px solid rgb(67, 127, 201);
